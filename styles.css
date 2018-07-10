@@ -1,0 +1,144 @@
+body {
+  background-color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image-div {
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: 20% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.index-image {
+  background-image: url("guitar.jpg");
+}
+
+.sheetmusic-image {
+  background-image: url("sheetMusicImg.jpg");
+}
+
+.guitars-image {
+  background-image: url("guitarwall.jpg");
+}
+
+.accessories-image {
+  background-image: url("guitarpick.jpg");
+}
+
+.nav {
+  font-size: 1.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav div{
+  border-radius: 4px;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav div:hover{
+  background-color: #5c5a59;
+  color: black;
+}
+
+
+.nav a:hover {
+  /* color: black; */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* align-content: center; */
+}
+
+.flex-container div {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+.article-title {
+  font-family: cursive;
+  font-size: 3.5em;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+               0px 8px 13px rgba(0,0,0,0.1),
+               0px 18px 23px rgba(0,0,0,0.1);
+  text-align: center;
+  padding-top: 45vh;
+
+}
+
+.history {
+  height: 1000px;
+  background-color: lightgray;
+}
+
+.history p {
+  color: black;
+  padding: 10px;
+}
+.accTable{
+  margin-top: 20px;
+}
+
+.accTable td {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: lightgray;
+  color: black;
+}
+.accTable th {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.index-external-link {
+  text-align: center;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.index-external-link a {
+  padding: 5px;
+  border-color: black;
+  border-radius: 4px;
+}
+
+.index-external-link a:hover {
+  background-color: #5c5a59;
+  color: white;
+}
+
+.center {
+  vertical-align: middle;
+	text-align: center;
+
+}
